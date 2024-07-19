@@ -5,7 +5,7 @@ subtitle: "A Comprehensive Machine Learning Approach"
 date: 2024-07-20
 author: Harsha Vuppalapati
 tags: [data science, machine learning, fintech, churn analysis]
-gh-repo: harshaandroid/harshaandroid.github.io
+gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 comments: true
 mathjax: true
