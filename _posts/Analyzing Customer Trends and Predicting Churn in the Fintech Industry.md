@@ -46,11 +46,12 @@ df = pd.read_csv('Churn_Modelling.csv')
 
 # Display the first few rows
 print(df.head())
-###2. Exploratory Data Analysis (EDA)
+```
+### 2. Exploratory Data Analysis (EDA)
 
 EDA helps us understand the data distribution, relationships between features, and identify any patterns or anomalies. Visualizing the data is a key part of this process.
 
-'''python
+```python
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -61,11 +62,12 @@ for i, ax in enumerate(axes.flatten()):
     sns.histplot(df.iloc[:, i+3], kde=True, ax=ax)
 plt.tight_layout()
 plt.show()
-###3. Data Cleaning and Feature Engineering
+``` 
+### 3. Data Cleaning and Feature Engineering
 
 Next, we handle missing values, encode categorical variables, and scale numerical features to prepare the data for modeling.
 
-'''python
+```python
 
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
@@ -80,12 +82,12 @@ df[['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'EstimatedSalary
 
 #### Drop unnecessary columns
 df = df.drop(columns=['RowNumber', 'CustomerId', 'Surname'])
-
-###4. Model Building
+```
+### 4. Model Building
 
 We begin with a logistic regression model to predict customer churn and evaluate its performance using confusion matrix, classification report, and accuracy score.
 
-'''python
+```python
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -107,12 +109,12 @@ y_pred = model.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 print('Accuracy:', accuracy_score(y_test, y_pred))
-
-###5. Advanced Modeling
+```
+### 5. Advanced Modeling
 
 To improve our model's performance, we explore advanced algorithms such as Random Forest and Gradient Boosting, comparing their accuracy and other evaluation metrics.
 
-'''python
+```python
 
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
@@ -129,12 +131,12 @@ gb_pred = gb_model.predict(X_test)
 #### Evaluate the models
 print('Random Forest Accuracy:', accuracy_score(y_test, rf_pred))
 print('Gradient Boosting Accuracy:', accuracy_score(y_test, gb_pred))
-
-###6. Hyperparameter Tuning and Model Optimization
+```
+### 6. Hyperparameter Tuning and Model Optimization
 
 To further enhance our model's performance, we perform hyperparameter tuning using techniques such as Grid Search and Random Search.
 
-python
+```python
 
 from sklearn.model_selection import GridSearchCV
 
@@ -153,12 +155,12 @@ grid_search.fit(X_train, y_train)
 # Best parameters and best score
 print(grid_search.best_params_)
 print(grid_search.best_score_)
-
-###7. Model Evaluation and Interpretation
+```
+### 7. Model Evaluation and Interpretation
 
 Finally, we evaluate the best model on the test set and interpret the results, focusing on key metrics such as accuracy, precision, recall, F1-score, and feature importance.
 
-'''python
+```python
 
 # Evaluate the best model
 best_model = grid_search.best_estimator_
@@ -168,8 +170,8 @@ y_best_pred = best_model.predict(X_test)
 print(confusion_matrix(y_test, y_best_pred))
 print(classification_report(y_test, y_best_pred))
 print('Accuracy:', accuracy_score(y_test, y_best_pred))
-
-##Conclusion
+```
+## Conclusion
 
 This project demonstrates a comprehensive approach to analyzing customer trends and predicting churn in the fintech industry using machine learning. By leveraging a diverse set of features and advanced modeling techniques, we gain valuable insights into customer behavior and churn patterns. This project not only showcases data science and machine learning skills but also highlights domain-specific knowledge in the finance sector.
 References
