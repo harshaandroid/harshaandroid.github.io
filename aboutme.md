@@ -1,16 +1,38 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: "About Me"
+permalink: /about/
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+## About Me
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Harsha Vuppalapati
 
-What else do you need?
+Welcome to my professional portfolio! I am Harsha Vuppalapati, a dedicated data scientist with over 2.5 years of experience in the dynamic world of data analytics and machine learning. With a passion for uncovering insights and driving innovation, I specialize in the fintech sector, focusing on customer behavior analysis, predictive modeling, and data-driven decision making.
 
-### My story
+### Background
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I hold a degree in Computer Science and have continually advanced my skills through hands-on projects and professional development. My journey into data science was driven by a fascination with how data can be transformed into actionable insights that drive business growth and efficiency.
+
+### Professional Experience
+
+In my career, I have successfully:
+- *Analyzed Customer Trends*: Leveraged machine learning algorithms to predict customer churn, helping financial institutions retain valuable customers.
+- *Developed Predictive Models*: Built and deployed models that forecast customer behavior, enhancing marketing strategies and operational efficiencies.
+- *Collaborated with Cross-Functional Teams*: Worked closely with marketing, finance, and IT departments to implement data solutions that align with business objectives.
+
+### Skills and Expertise
+
+- *Programming Languages*: Python, SQL
+- *Data Analysis Tools*: Pandas, NumPy, Matplotlib, Seaborn
+- *Machine Learning Frameworks*: Scikit-learn, TensorFlow, Keras
+- *Cloud Platforms*: AWS (SageMaker, S3), Azure (DevOps, Databricks)
+- *Data Visualization*: Power BI, Tableau
+
+### Personal Interests
+
+Beyond my professional life, I enjoy exploring the latest advancements in technology, participating in data science competitions on platforms like Kaggle, and sharing my knowledge through blogging and community meetups. In my free time, I love reading about finance, hiking, and experimenting with new recipes in the kitchen.
+
+### Contact
+
+Feel free to connect with me on LinkedIn or reach out via email for any professional inquiries or collaboration opportunities.
