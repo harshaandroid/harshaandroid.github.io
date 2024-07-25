@@ -177,7 +177,8 @@ print('Accuracy:', accuracy_score(y_test, y_best_pred))
 ## Conclusion
 
 This project demonstrates a comprehensive approach to analyzing customer trends and predicting churn in the fintech industry using machine learning. By leveraging a diverse set of features and advanced modeling techniques, we gain valuable insights into customer behavior and churn patterns. This project not only showcases data science and machine learning skills but also highlights domain-specific knowledge in the finance sector.
-References
+
+## References 
 
     Kaggle Dataset
     Scikit-learn Documentation
@@ -185,3 +186,4 @@ References
     Seaborn Documentation
     Python Data Science Handbook
     Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
+
