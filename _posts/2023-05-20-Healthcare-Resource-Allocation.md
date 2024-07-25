@@ -98,18 +98,15 @@ print(f'Mean Absolute Error: {mae}')
 
 ```
 ## Model Interpretation and Application
-
 The model's predictions can be used to inform staffing levels, ensuring that enough medical personnel are available during peak times. It can also assist in scheduling equipment maintenance and allocating beds more effectively.
 
 ## Conclusion
-
 By integrating machine learning into ED operations, healthcare providers can anticipate patient volumes and optimize resource allocation, leading to improved patient care and operational efficiency. Future work could focus on integrating additional data sources, such as weather conditions or public events, to further enhance the model's predictive capabilities.
 
 ## References
-
-Pandas Documentation
-Seaborn Documentation
-Scikit-learn Documentation
+    Pandas Documentation
+    Seaborn Documentation
+    Scikit-learn Documentation
 
 
 
