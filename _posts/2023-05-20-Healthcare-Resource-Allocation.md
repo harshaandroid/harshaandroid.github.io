@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Optimizing Resource Allocation in Emergency Departments Using Machine Learning"
-date: 2024-07-25
+date: 2023-05-20
 author: Harsha Vuppalapati
 tags: [Healthcare, Machine Learning, Data Science, Predictive Analytics]
 ---
