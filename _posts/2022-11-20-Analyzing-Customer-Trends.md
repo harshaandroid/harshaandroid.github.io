@@ -2,7 +2,7 @@
 layout: post
 title: "Analyzing Customer Trends and Predicting Churn in the Fintech Industry"
 subtitle: "A Comprehensive Machine Learning Approach"
-date: 2024-07-20
+date: 2022-11-20
 author: Harsha Vuppalapati
 tags: [data science, machine learning, fintech, churn analysis]
 gh-repo: daattali/beautiful-jekyll
