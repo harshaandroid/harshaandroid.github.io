@@ -6,7 +6,6 @@ date: 2024-07-20
 author: Harsha Vuppalapati
 tags: [data science, machine learning, fintech, churn analysis]
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 comments: true
 mathjax: true
 ---
