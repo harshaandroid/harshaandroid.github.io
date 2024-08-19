@@ -20,7 +20,7 @@ author: "Harsha Vuppalapati"
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  #About Me: "aboutme"
   Resources:
     - Job Recommendation System: "https://github.com/harshaandroid/Job-Recommendation-System"
   Author's home: "https://www.linkedin.com/in/harshavardhan-raju-vuppalapati-31b2b51b5/" 
